@@ -20,7 +20,7 @@ If there is a working kafka instance running on localhost (aka: the zookeeper po
 For docker-compose, assume a setup like this
 
     kafdrop:
-        image: thomsch98/kafdrop:alpine
+        image: thomsch98/kafdrop:latest
         ports:
         - "9010:9010" 
         environment:
